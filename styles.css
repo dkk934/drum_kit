@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #cbeffe;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 4px 9px  #b35858;
+
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 280%;
+    }
+}
+
+footer {
+    color: #7481f7;
+    font-family: sans-serif;
+}
+a{
+    color: #2b32eb;
+}
+a:hover{
+    color: #eb2b2b;
+}
+
+a {
+    color: #63a6dd;
+}
+
+.w {
+    background-image: url("images/crashw.png");
+
+}
+
+.a {
+    background-image: url("images/kicka.png");
+}
+
+.s {
+    background-image: url("images/snare_s.png");
+}
+
+.d {
+    background-image: url("images/tom1d.png");
+}
+
+.j {
+    background-image: url("images/tom2j.png");
+}
+
+.k {
+    background-image: url("images/tom3k.png");
+}
+
+.l {
+    background-image: url("images/tom4l.png");
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+
+.red {
+    color: red;
+}
+
+.drum {
+    outline: none;
+    border: 5px solid #ffffff;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 5px 5px 30px 5px gray, 0 0 12px rgb(255, 255, 255),1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
+    background-color: white;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    .drum {
+        border: 2px solid #ffffff;
+        width: 110px;
+        height: 110px;
+        font-size: 4rem;
+        margin: 8px;
+        
+    }
+}
+
+.pressed {
+    box-shadow:3px 3px 20px 2px rgb(126, 124, 124) inset;
+    opacity: 0.8;
+}
