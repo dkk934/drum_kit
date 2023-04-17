@@ -72,5 +72,5 @@ function btnA(ckey){
     document.querySelector("."+ ckey).classList.add("pressed");
 setTimeout(function(){
     document.querySelector("."+ ckey).classList.remove("pressed");
-},200)
+},100)
 }
